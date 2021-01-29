@@ -1,6 +1,7 @@
 {
   "track_id": "forth",
   "language": "Forth",
+  "slug": "forth",
   "active": false,
   "status": {
     "concept_exercises": false,
