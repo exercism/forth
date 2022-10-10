@@ -9,7 +9,7 @@
     "representer": false,
     "analyzer": false
   },
-  "blurb": "",
+  "blurb": "Forth is a procedural, stack-oriented programming language and interactive environment designed by Charles H. Moore and first used by other programmers in 1970. Forth was created for programming embedded and real-time applications. Today, it is available for developing applications on Windows, DOS, and variants of Unix that include macOS.",
   "version": 3,
   "online_editor": {
     "indent_style": "space",
