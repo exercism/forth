@@ -1,0 +1,14 @@
+variable matches
+
+: count-word
+  0 matches !
+  2swap begin 2over search while
+    1 matches +!
+    1 /string
+  repeat
+  2drop 2drop matches @ ;
+
+: report
+  2dup 2>r count-word 2r>
+  [char] " emit type [char] " emit
+  ."  appears " . ." times" ;
